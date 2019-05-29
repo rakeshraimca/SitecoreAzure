@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "aseName": {
+      "value": "euw-asev2-dev-sitecore"
+    },
+    "aseResourceGroupName": {
+      "value": "euw-asev2-dev-rg"
+    },
+	 "deploymentId": {
+      "value": "euw-asev2-dev-rg"
+    },
+    "location": {
+      "value": "West Europe"
+    },
+    "sitecoreAdminPassword": {
+      "value": "LeoSitecore"
+    },
+    "licenseXml": {
+      "value": "C:\\sitecore902\\license.xml"
+    },
+    "repAuthenticationApiKey": {
+      "value": "4d519b20-dd41-442b-a481-48f20d25f5d3"
+    },
+    "sqlServerLogin": {
+      "value": "Leo"
+    },
+    "sqlServerPassword": {
+      "value": "Password@1"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_cm.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_cd.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_prc.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_rep.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1referencedata.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1collection.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1collectionsearch.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1marketingautomation.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "https://euwsitecoredevsa.blob.core.windows.net/euwsitecoredevsa-con/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1marketingautomationreporting.scwdp.zip?st=2019-05-28T06%3A40%3A13Z&se=2020-04-29T06%3A40%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=KUhOD6zKduvNDw6vcs1f8NGwbP30PxAA%2BzbUXfNPCcU%3D"
+    }, 
+    "authCertificateBlob":{
+      "value": "C:\\sitecore902\\F6E95FD11CE541500A7AB35DEE6014C8E3604749.pfx"
+    },
+    "authCertificatePassword":{
+      "value": "LeoSitecore"
+    },
+    "sitecoreSKU":{
+      "value": "Large"
+    },
+	  "allowInvalidClientCertificates": {
+      "value": true
+    }
+  }
+}
